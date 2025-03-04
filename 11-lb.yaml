@@ -14,3 +14,16 @@ spec:
     port: 80 # service port
     targetPort: 80 # container port
     nodePort: 30009
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: labels
+  labels:
+    project: expense
+    module: backend
+    environment: dev
+spec:
+  containers:
+  - name: nginx
+    image: nginx
