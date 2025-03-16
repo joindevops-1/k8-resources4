@@ -65,6 +65,4 @@ spec:
     envFrom:
     - secretRef:
         name: app-1
-    - secretRef:
-        name: app-2
 
