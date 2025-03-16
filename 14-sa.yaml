@@ -4,8 +4,8 @@ metadata:
   name: app-1
 type: Opaque
 data:
-  username: YXBwMQo=
-  password: YXBwMQo=
+  uname: YXBwMQo=
+  pwd: YXBwMQo=
 ---
 apiVersion: v1
 kind: Secret
