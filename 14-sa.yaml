@@ -62,7 +62,7 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    envFrom:
-    - secretRef:
-        name: app-1
+    # envFrom:
+    # - secretRef:
+    #     name: app-1
 
