@@ -24,7 +24,7 @@ subjects:
 # You can specify more than one "subject"
 - kind: ServiceAccount
   name: app-1 # "name" is case sensitive
-  apiGroup: rbac.authorization.k8s.io
+  namespace: default
 roleRef:
   # "roleRef" specifies the binding to a Role / ClusterRole
   kind: Role #this must be Role or ClusterRole
